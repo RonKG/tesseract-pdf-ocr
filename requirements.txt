@@ -1,0 +1,9 @@
+# OCR stack (requires system: tesseract, poppler — see notebook intro)
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+Pillow>=10.0.0
+
+# Notebook UI (ipykernel: register venv with `python -m ipykernel install ...`)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+ipykernel>=6.0.0
