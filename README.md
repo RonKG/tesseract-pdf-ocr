@@ -44,7 +44,7 @@ python -m ipykernel install --user --name=test_ocr_inputs --display-name="Python
 
 ### 3. Add PDFs
 
-Put `.pdf` files **anywhere under this project folder** (recursively). The notebook discovers them automatically.
+Put `.pdf` files **anywhere under this project folder** (recursively). The notebook discovers them automatically. PDFs are **not** committed to this repository (they are listed in `.gitignore`); supply your own files locally or after cloning.
 
 ## How to use it
 
